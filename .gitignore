@@ -1,0 +1,16 @@
+# Datos originales y derivados
+data/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
