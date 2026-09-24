@@ -6,7 +6,7 @@ Análisis de salarios de personas asalariadas con las bases de Personas de la EN
 
 ## Contenido
 
-- `lab07_spark_mllib.ipynb` contiene el notebook con código, gráficas e interpretación
+- `notebooks/lab07_spark_mllib.ipynb` contiene el notebook con código, gráficas e interpretación
 - `requirements.txt` lista las librerías de Python
 - `data/raw` es la carpeta donde van los archivos originales de Excel
 
