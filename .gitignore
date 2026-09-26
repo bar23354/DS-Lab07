@@ -1,5 +1,6 @@
 # Datos originales y derivados
 data/
+models/
 spark-warehouse/
 metastore_db/
 derby.log

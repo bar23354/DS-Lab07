@@ -17,13 +17,22 @@ Análisis de salarios de personas asalariadas con las bases de Personas de la EN
 3. Revisar que los nombres coincidan con la lista `ARCHIVOS` del notebook, o cambiar la lista
 4. Ejecutar el notebook de principio a fin
 
-El notebook genera los conjuntos preparados en `data/processed`. Los datos no se suben al repositorio.
+El notebook genera los conjuntos preparados en `data/processed` y los modelos elegidos en `models`. Ninguna de las dos carpetas se sube al repositorio.
 
-## Avance
+## Contenido del notebook
 
-La primera entrega cubre la sección de análisis exploratorio y segmentación.
+Análisis exploratorio y segmentación:
 
 1. Carga, armonización y calidad de datos
 2. Estadística descriptiva
 3. Relaciones entre variables numéricas
 4. Segmentación de perfiles con KMeans
+
+Modelado supervisado:
+
+5. Pipeline de regresión lineal
+6. Pipeline de Random Forest
+
+## Partición de los datos
+
+Los trimestres I, II y III de 2025 se usan para entrenar. El trimestre IV de 2025 se usa para elegir la configuración de cada algoritmo. El primer trimestre de 2026 queda reservado para la evaluación final y no se toca en las secciones anteriores.
