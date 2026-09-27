@@ -32,7 +32,8 @@ Modelado supervisado:
 
 5. Pipeline de regresión lineal
 6. Pipeline de Random Forest
+7. Entrenamiento final y evaluación en 2026
 
 ## Partición de los datos
 
-Los trimestres I, II y III de 2025 se usan para entrenar. El trimestre IV de 2025 se usa para elegir la configuración de cada algoritmo. El primer trimestre de 2026 queda reservado para la evaluación final y no se toca en las secciones anteriores.
+Los trimestres I, II y III de 2025 se usan para entrenar. El trimestre IV de 2025 se usa para elegir la configuración de cada algoritmo. El primer trimestre de 2026 queda reservado para la evaluación final y no se toca en las secciones anteriores. En la sección 7 se reajusta cada configuración elegida con los cuatro trimestres de 2025 y se evalúa una sola vez sobre 2026.
