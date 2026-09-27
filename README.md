@@ -12,10 +12,17 @@ Análisis de salarios de personas asalariadas con las bases de Personas de la EN
 
 ## Cómo ejecutar
 
-1. Instalar Java 17 y las librerías con `pip install -r requirements.txt`
-2. Copiar los cinco archivos de Personas en `data/raw`
-3. Revisar que los nombres coincidan con la lista `ARCHIVOS` del notebook, o cambiar la lista
-4. Ejecutar el notebook de principio a fin
+1. Instalar Java 17 y las librerías con `pip install -r requirements.txt`. Se recomienda Python 3.10 a 3.12
+2. Copiar los cinco archivos de Personas en `data/raw`. Los nombres deben ser `ENEIC_2025_I_Personas.xlsx`, `ENEIC_2025_II_Personas.xlsx`, `ENEIC_2025_III_Personas.xlsx`, `ENEIC_2025_IV_Personas.xlsx` y `ENEIC_2026_I_Personas.xlsx`, o se cambia la lista `ARCHIVOS` del notebook
+3. Ejecutar el notebook de principio a fin. Tarda unos 10 minutos
+
+El notebook se puede abrir desde la carpeta `notebooks` y cambia solo a la raíz del proyecto para leer `data/raw`.
+
+### Notas sobre el entorno
+
+- En Windows, Spark no puede escribir Parquet sin `winutils.exe` y `hadoop.dll`. La forma más simple de evitarlo es ejecutar el notebook en WSL2 o en el Docker del curso
+- `pyspark` 3.5 importa `distutils`, que no existe desde Python 3.12. Por eso `requirements.txt` incluye `setuptools`
+- Con Java 21 o posterior Spark 3.5 puede fallar al iniciar. Se usó Java 17
 
 El notebook genera los conjuntos preparados en `data/processed` y los modelos elegidos en `models`. Ninguna de las dos carpetas se sube al repositorio.
 
