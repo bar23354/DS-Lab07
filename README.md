@@ -33,6 +33,7 @@ Modelado supervisado:
 5. Pipeline de regresión lineal
 6. Pipeline de Random Forest
 7. Entrenamiento final y evaluación en 2026
+8. Visualización y análisis de errores
 
 ## Partición de los datos
 
